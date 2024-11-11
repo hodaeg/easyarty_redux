@@ -13,6 +13,8 @@ const Input = forwardRef<
       <ShadInput
         type="number"
         placeholder="Distance"
+        inputMode="numeric"
+        pattern="[0-9]*"
         value={value}
         onChange={onChange}
         aria-label="Distance"
